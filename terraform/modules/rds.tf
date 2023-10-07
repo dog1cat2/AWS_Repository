@@ -13,6 +13,7 @@ resource "aws_db_instance" "hangeun-db" {
   username = "${var.username}"
   password = "${var.password}"
   skip_final_snapshot = "${var.skip_final_snapshot}"
+  
   # 네트워크
   db_subnet_group_name = aws_db_subnet_group.db-subnet-group.name
   vpc_security_group_ids = [aws_security_group.hangeun_rds.id, aws_security_group.hangeun_rds_from_bastion.id]
