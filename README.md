@@ -1,6 +1,6 @@
 # Hangeun AWS 아키텍쳐
 Hangeun에서 사용되는 AWS 리소스와 아키텍쳐에 대한 그림입니다.
-![./image/DF_AWS.png]
+![AWS 아키텍쳐](./image/DF_AWS.png)
 이를 바탕으로 위의 Terraform 코드를 작성했으며, 해당 Terraform 코드의 사용법은 아래와 같습니다
 
 
